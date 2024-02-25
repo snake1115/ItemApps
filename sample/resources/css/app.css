@@ -1,0 +1,103 @@
+@charset "UTF-8";
+    @font-face {
+    　　font-family: 'Sawarabi Gothic', sans-serif;
+    　　　font-style: normal;
+    　　　font-weight: 400;
+     }
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        background-color:#f4f5f7;
+        font-family: 'Sawarabi Gothic', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .title{
+        font-size:3.2rem;
+    }
+    .input-message{
+        font-size:1.4rem;
+    }
+    .text-center{
+        text-align: center;
+    }
+  	table{
+        width: 100%;
+        border-collapse:separate;
+        border-spacing: 0;
+    }
+    table th{
+        text-align: left;
+        color:white;
+        background: linear-gradient(#829ebc,#225588);
+        border-left: 1px solid #3c6690;
+        border-top: 1px solid #3c6690;
+        border-bottom: 1px solid #3c6690;
+        box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+        font-size: 16px;
+    }
+    table th:first-child{
+        border-radius: 5px 0 0 0;
+    }      table th:last-child{
+        border-radius: 0 5px 0 0;
+        border-right: 1px solid #3c6690;
+    }
+    table td{
+        text-align: center;
+        border-left: 1px solid #a8b7c5;
+        border-bottom: 1px solid #a8b7c5;
+        border-top:none;
+        box-shadow: 0px -3px 5px 1px #eee inset;
+    }
+    table td:last-child{
+        border-right: 1px solid #a8b7c5;
+    }
+    table tr:last-child td:first-child {
+        border-radius: 0 0 0 5px;
+    }
+    table tr:last-child td:last-child {
+        border-radius: 0 0 5px 0;
+    }
+    .plusminus{
+	   text-align: right;
+   }
+	.search_container{
+	  box-sizing: border-box;
+	  position: relative;
+	  border: 1px solid #999;
+	  display: block;
+	  padding: 3px 10px;
+	  border-radius: 20px;
+	  height: 2.0%;
+	  width: 40%;
+	  overflow: hidden;
+	}
+	.search_container input[type="text"]{
+	  border: none;
+	  height: 2.0em;
+	  width: 90%;
+	  background-color:#f4f5f7;
+	}
+	.search_container input[type="text"]:focus {
+	  outline: 0;
+	}
+	.search_container input[type="submit"]{
+	  cursor: pointer;
+	  font-family: FontAwesome;
+	  border: none;
+	  background: #3879D9;
+	  color: #fff;
+	  position: absolute;
+	  width: 3.5em;
+	  height: 3.0em;
+	  right:0px;
+	  top: -3px;
+	  outline : none;
+	  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z' fill='%23fff'%3E%3C/path%3E%3C/svg%3E");
+	  background-repeat: no-repeat;
+	  background-size: 50%;
+	  background-position:center;
+	  content: '';
+	}
+	
